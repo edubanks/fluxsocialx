@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Planejador de Posts - Fluxsocial X</title>
+  <link rel="stylesheet" href="planejador.css" />
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Planejador de Conteúdo</h1>
+    <p>Digite seu nicho ou tema:</p>
+    <input type="text" id="tema" placeholder="Ex: Marketing digital" />
+    <button onclick="gerarPlanejamento()">Gerar Planejamento</button>
+    <div id="resultado"></div>
+  </div>
+  <script type="module" src="planejador.js"></script>
+</body>
+</html>
